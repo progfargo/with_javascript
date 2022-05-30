@@ -1,7 +1,7 @@
 (function ($) {
 	$.fn.lineProgressBar = function (options) {
 		var defaults = {
-			lineHeight: "20px",
+			lineHeight: 20,
 			lineColor: "#99caff",
 			completeColor: "#007bff",
 			showPercent: true,
@@ -13,14 +13,12 @@
 
 		// private methods
 		var drawLine = function (self) {
-			var str = "<div class=\"lineBox\">";
-			str += "<div class=\"line\"></div>";
-			str += "<div class=\"complete\"></div>";
-			str += "</div>";
-
 			if (settings.showPercent) {
 				self.prepend(`<div class=\"percent\"></div>`);
 			}
+
+			var str = "<div class=\"line\"></div>";
+			str += "<div class=\"complete\"></div>";
 
 			$(str).appendTo(self);
 		}
@@ -28,12 +26,15 @@
 		var init = function (self) {
 			drawLine(self);
 
+			console.log("test");
 			self.find(".line").css({
+				"border-radius": (settings.lineHeight / 2),
 				"background-color": settings.lineColor,
 				"height": settings.lineHeight
 			});
 
 			self.find(".complete").css({
+				"border-radius": (settings.lineHeight / 2),
 				"background-color": settings.completeColor,
 				"height": settings.lineHeight
 			});
