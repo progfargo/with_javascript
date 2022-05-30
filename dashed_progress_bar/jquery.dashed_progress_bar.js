@@ -43,7 +43,6 @@
 			lineBox.find(".line").css("background-color", settings.lineColor);
 
 			var n = Math.ceil(settings.numOfLines * percent / 100);
-			console.log("n: ", n);
 
 			lineBox.each(function (i) {
 				if (i >= n) {
