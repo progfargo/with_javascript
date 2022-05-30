@@ -2,7 +2,7 @@
 	$.fn.dashedProgressBar = function (options) {
 		var defaults = {
 			numOfLines: 10,
-			lineHeight: "10px",
+			lineHeight: 20,
 			lineColor: "#99caff",
 			completeColor: "#007bff",
 			showPercent: true,
@@ -18,6 +18,7 @@
 			str += "<div class=\"line\"></div>";
 			str += "</div>";
 
+
 			for (let i = 0; i < settings.numOfLines; i++) {
 				$(str).appendTo(self);
 			}
@@ -25,6 +26,10 @@
 
 		var init = function (self) {
 			drawLines(self);
+
+			var line = $(".line");
+			line.css("height", settings.lineHeight);
+			line.css("border-radius", settings.lineHeight / 2);
 
 			return self;
 		};
