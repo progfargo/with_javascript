@@ -6,7 +6,7 @@ Add css to 'head' section.
 
 Add plugin js to your html before the 'body' tag.
 
-```<script src="/asset/js/plugin/dashed_progress_bar/jquery.dashed_progress_bar.js"></script>```
+```<script src="/path/jquery.dashed_progress_bar.js"></script>```
 
 Add an empty div in your html where you want the progress bar to be displayed.
 
