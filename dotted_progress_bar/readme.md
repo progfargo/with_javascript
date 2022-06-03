@@ -31,3 +31,6 @@ $(document).ready(function () {
 - **lineColor:** color of dots.
 - **completeColor:** color of completed dots.
 - **showPercent:** if true persentage value will be shown over the last completed dot.
+
+## Demo
+[http://jquery.progfargo.com/dotted_progress_bar](http://jquery.progfargo.com/dotted_progress_bar)
