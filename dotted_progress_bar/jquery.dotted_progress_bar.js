@@ -48,7 +48,7 @@
 			dotBox.find(".percent").remove();
 			dotBox.find(".dot").css("background-color", settings.dotColor);
 
-			var n = Math.ceil(settings.numOfLines * percent / 100);
+			var n = Math.ceil(settings.numOfDots * percent / 100);
 
 			dotBox.each(function (i) {
 				if (i >= n) {

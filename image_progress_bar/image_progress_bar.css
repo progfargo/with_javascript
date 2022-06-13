@@ -1,0 +1,19 @@
+.progressBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.progressBar img {
+  display: none;
+}
+.progressBar .progressCanvas {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
+.progressBar .percent {
+  padding-bottom: 10px;
+  font-weight: bold;
+}

@@ -1,9 +1,9 @@
 (function ($) {
 	$.fn.dashedProgressBar = function (options) {
 		var defaults = {
-			numOfLines: 10,
-			lineHeight: 20,
-			lineColor: "#99caff",
+			numOfDashes: 10,
+			dashHeight: 20,
+			dashColor: "#99caff",
 			completeColor: "#007bff",
 			showPercent: true,
 		};
@@ -14,12 +14,11 @@
 
 		// private methods
 		var drawLines = function (self) {
-			var str = "<div class=\"lineBox\">";
+			var str = "<div class=\"dashBox\">";
 			str += "<div class=\"line\"></div>";
 			str += "</div>";
 
-
-			for (let i = 0; i < settings.numOfLines; i++) {
+			for (let i = 0; i < settings.numOfDashes; i++) {
 				$(str).appendTo(self);
 			}
 		}
@@ -28,8 +27,8 @@
 			drawLines(self);
 
 			var line = $(".line");
-			line.css("height", settings.lineHeight);
-			line.css("border-radius", settings.lineHeight / 2);
+			line.css("height", settings.dashHeight);
+			line.css("border-radius", settings.dashHeight / 2);
 
 			return self;
 		};
@@ -42,14 +41,14 @@
 				percent = 100;
 			}
 
-			var lineBox = this.find(".lineBox");
+			var dashBox = this.find(".dashBox");
 
-			lineBox.find(".percent").remove();
-			lineBox.find(".line").css("background-color", settings.lineColor);
+			dashBox.find(".percent").remove();
+			dashBox.find(".line").css("background-color", settings.dashColor);
 
-			var n = Math.ceil(settings.numOfLines * percent / 100);
+			var n = Math.ceil(settings.numOfDashes * percent / 100);
 
-			lineBox.each(function (i) {
+			dashBox.each(function (i) {
 				if (i >= n) {
 					return false;
 				}
@@ -65,7 +64,7 @@
 		};
 
 		this.clear = function () {
-			this.find(".lineBox").remove();
+			this.find(".dashBox").remove();
 		};
 
 		return init(this);

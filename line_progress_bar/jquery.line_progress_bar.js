@@ -26,7 +26,6 @@
 		var init = function (self) {
 			drawLine(self);
 
-			console.log("test");
 			self.find(".line").css({
 				"border-radius": (settings.lineHeight / 2),
 				"background-color": settings.lineColor,

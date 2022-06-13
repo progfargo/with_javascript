@@ -21,14 +21,14 @@ $(document).ready(function () {
 		completeColor: "#0094cc",
 	});
 	
-	progressBar.update(55);
+	progressBar.update(50);
 });
 ```
 ## Options
 - **lineHeight:** height of the progress bar.
 - **lineColor:** background color of progress bar.
 - **completeColor:** color of the completed section of progress bar.
-- **showPercent:** if true persentage value will be shown over the progress bar.
+- **showPercent:** if 'true', persentage value will be shown over the progress bar.
 
 ## Demo
-[http://jquery.progfargo.com/line_progress_bar](http://jquery.progfargo.com/line_progress_bar)
+[http://jquery.progfargo.com/line_progress_bar](http://jquery.progfargo.com/line_progress_bar){:target="_blank"}

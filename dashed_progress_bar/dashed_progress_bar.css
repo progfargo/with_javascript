@@ -1,11 +1,3 @@
-.panel .panelBody {
-  padding-top: 1.69rem;
-  padding-bottom: 1.69rem;
-}
-.panel p.controls {
-  margin-top: 3.71293rem;
-  margin-bottom: 3.71293rem;
-}
 #progressBar {
   display: flex;
   flex-wrap: nowrap;
@@ -13,17 +5,17 @@
   align-items: flex-end;
   width: 100%;
 }
-#progressBar .lineBox {
+#progressBar .dashBox {
   padding-right: 1%;
   padding-left: 1%;
   width: 10%;
   background-color: transparent;
 }
-#progressBar .lineBox .percent {
+#progressBar .dashBox .percent {
   padding-bottom: 10px;
   text-align: center;
 }
-#progressBar .lineBox .line {
+#progressBar .dashBox .line {
   width: 100%;
   height: 20px;
   border-radius: 10px;

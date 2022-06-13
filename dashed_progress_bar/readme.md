@@ -2,11 +2,11 @@
 
 Add css to 'head' section.
 
-```<link rel="stylesheet" href="/path/dashed_progress_bar.css">```
+```<link rel="stylesheet" href="/path.../dashed_progress_bar.css">```
 
 Add plugin js to your html before the 'body' tag.
 
-```<script src="/path/jquery.dashed_progress_bar.js"></script>```
+```<script src="/path.../jquery.dashed_progress_bar.js"></script>```
 
 Add an empty div in your html where you want the progress bar to be displayed.
 
@@ -16,21 +16,22 @@ Add an empty div in your html where you want the progress bar to be displayed.
 ```
 $(document).ready(function () {
 	var progressBar = $("#progressBar").dashedProgressBar({
-		numOfLines: 10,
+		numOfDashes: 10,
+		dashHeight: 20,
+		dashColor: "#99caff",
+		completeColor: "#007bff",
 		showPercent: true,
-		lineColor: "#82f7ff",
-		completeColor: "#0094cc",
 	});
 	
-	progressBar.update(55);
+	progressBar.update(50);
 });
 ```
 ## Options
-- **numOfLines:** number of dashes used.
-- **lineHeight:** height of the progress bar dashes.
-- **lineColor:** color of dashes.
+- **numOfDashes:** number of dashes used.
+- **dashHeight:** height of the progress bar dashes.
+- **dashColor:** color of dashes.
 - **completeColor:** color of completed dashes.
-- **showPercent:** if true persentage value will be shown over the last completed dash.
+- **showPercent:** if 'true', persentage value will be shown over the last completed dash.
 
 ## Demo
-[http://jquery.progfargo.com/dashed_progress_bar](http://jquery.progfargo.com/dashed_progress_bar)
+[http://jquery.progfargo.com/dashed_progress_bar](http://jquery.progfargo.com/dashed_progress_bar){:target="_blank"}
