@@ -33,4 +33,4 @@ $(document).ready(function () {
 - **showPercent:** if 'true', persentage value will be shown over the last completed dot.
 
 ## Demo
-[http://jquery.progfargo.com/dotted_progress_bar](http://jquery.progfargo.com/dotted_progress_bar){:target="_blank"}
+[http://jquery.progfargo.com/dotted_progress_bar](http://jquery.progfargo.com/dotted_progress_bar)

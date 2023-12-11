@@ -53,9 +53,9 @@ $(document).ready(function () {
 - **src:** image source like "/path.../image_name.jpeg",
 - **initValue:** initial persentage value.",
 
-## Demo
-[http://jquery.progfargo.com/image_progress_bar](http://jquery.progfargo.com/image_progress_bar){:target="_blank"}
-
 ## Refs
-[Image Filters with Canvas](https://www.html5rocks.com/en/tutorials/canvas/imagefilters/){:target="_blank"}
-[HTML canvas getImageData() Method](https://www.w3schools.com/tags/canvas_getimagedata.asp){:target="_blank"}
+[Image Filters with Canvas](https://www.html5rocks.com/en/tutorials/canvas/imagefilters/)
+[HTML canvas getImageData() Method](https://www.w3schools.com/tags/canvas_getimagedata.asp)
+
+## Demo
+[http://jquery.progfargo.com/image_progress_bar](http://jquery.progfargo.com/image_progress_bar)
