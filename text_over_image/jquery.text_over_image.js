@@ -10,7 +10,6 @@
 		var $img;
 
 		// private methods
-
 		function init(self) {
 			$(self).css("opacity", settings.opacity);
 			$img = $(settings.img);

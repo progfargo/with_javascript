@@ -1,4 +1,5 @@
 #progressBar {
+  margin-top: 0.4655rem;
   position: relative;
 }
 #progressBar .percent {
