@@ -6,9 +6,7 @@
   width: 100%;
 }
 #progressBar .dotBox {
-  padding-right: 1%;
-  padding-left: 1%;
-  width: 10%;
+  max-width: 400px;
   background-color: transparent;
 }
 #progressBar .dotBox .percent {
@@ -16,8 +14,6 @@
   text-align: center;
 }
 #progressBar .dotBox .dot {
-  margin: auto;
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
+  margin-right: 0.1596665rem;
+  border-radius: 8px;
 }
