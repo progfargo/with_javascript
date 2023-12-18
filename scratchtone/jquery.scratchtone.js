@@ -80,7 +80,7 @@
 				}
 			}
 
-			path.smoote();
+			path.smooth();
 		}
 
 		return init(this);
