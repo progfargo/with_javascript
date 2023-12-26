@@ -18,4 +18,4 @@ $(document).ready(function () {
 - **color:** color of dots in the image.
 
 ## Demo
-[http://jquery.progfargo.com/scratchtone](http://jquery.progfargo.com/scratchtone)
+[http://js.progfargo.com/scratchtone](demo)

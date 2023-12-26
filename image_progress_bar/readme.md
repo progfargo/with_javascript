@@ -25,7 +25,7 @@ $(document).ready(function () {
 
 	var fishPercent = 0;
 
-	$(".controls.fish .increase").on("click", function () {
+	$(".colControls.fish .increase").on("click", function () {
 		fishPercent += 5;
 		if (fishPercent > 100) {
 			fishPercent = 100;
@@ -35,7 +35,7 @@ $(document).ready(function () {
 		return false;
 	});
 
-	$(".controls.fish .decrease").on("click", function () {
+	$(".colControls.fish .decrease").on("click", function () {
 		fishPercent -= 5;
 
 		if (fishPercent < 0) {
@@ -58,4 +58,4 @@ $(document).ready(function () {
 [HTML canvas getImageData() Method](https://www.w3schools.com/tags/canvas_getimagedata.asp)
 
 ## Demo
-[http://jquery.progfargo.com/image_progress_bar](http://jquery.progfargo.com/image_progress_bar)
+[http://js.progfargo.com/image_progress_bar](demo)

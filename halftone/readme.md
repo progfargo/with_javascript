@@ -18,4 +18,4 @@ $(document).ready(function () {
 - **color:** color of dots in the image.
 
 ## Demo
-[http://jquery.progfargo.com/halftone](http://jquery.progfargo.com/halftone)
+[http://js.progfargo.com/halftone](demo)
