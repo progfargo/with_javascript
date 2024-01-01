@@ -34,4 +34,4 @@ $(document).ready(function () {
 - **showPercent:** if 'true', persentage value will be shown over the last completed dash.
 
 ## Demo
-[http://js.progfargo.com/dashed_progress_bar](demo) 
+[demo](http://js.progfargo.com/dashed_progress_bar) 
