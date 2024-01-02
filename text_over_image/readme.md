@@ -11,18 +11,22 @@ Add css to 'head' section.
 
 Add plugin js to your html before the 'body' tag.
 
-```<script src="/path.../jquery.js"></script>
+```
+<script src="/path.../jquery.js"></script>
 <script src="/path.../vibrant.js"></script>
-<script src="/path.../jquery.text_over_image.js"></script>```
+<script src="/path.../jquery.text_over_image.js"></script>
+```
 
 ## Javascript
 
-```$(document).ready(function () {
+```
+$(document).ready(function () {
 	var text = $(".myText");
 	var img = $(".myImage")
 	
 	text.AdjustBackgroundColor(img)
-});```
+});
+```
 
 Select your text element and call adaptiveBgColor function with option object.
 
