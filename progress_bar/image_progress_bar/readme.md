@@ -58,4 +58,4 @@ $(document).ready(function () {
 [HTML canvas getImageData() Method](https://www.w3schools.com/tags/canvas_getimagedata.asp)
 
 ## Demo
-[http://js.progfargo.com/image_progress_bar](demo)
+[demo](http://js.progfargo.com/image_progress_bar)
