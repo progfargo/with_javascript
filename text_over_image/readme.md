@@ -1,6 +1,6 @@
 A text on an image must be a text element. In other words, it mustn't be embedded into the image using an image editor. Search engines may not notice such captions.
 
-It is necessary to give the text a background color that matches the average color of the image on which they are placed. This plugin automatically calculates the vibrant color with using [vigrant.js](https://jariz.github.io/vibrant.js/){:target="_blank"}.
+It is necessary to give the text a background color that matches the average color of the image on which they are placed. This plugin automatically calculates the vibrant color with using [vigrant.js](https://jariz.github.io/vibrant.js/)
 Thus, when the image changes, the background color of the text also changes to a suitable one.
 
 ## Html
