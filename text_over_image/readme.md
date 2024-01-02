@@ -37,4 +37,4 @@ One of the options is a selector text for the image containing the text.
 - **opacity:** opacity of the text. (default: 0.85)
 
 ## Demo
-[http://jquery.progfargo.com/text_over_image](http://jquery.progfargo.com/text_over_image)
+[demo](http://js.progfargo.com/text_over_image)
